@@ -1,0 +1,43 @@
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+dl {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+
+dd {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+/* Center the buttons */
+.btn-container {
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  dl {
+    width: 80%;
+  }
+}
