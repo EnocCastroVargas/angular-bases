@@ -1,0 +1,41 @@
+/* Style the h1 tag */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+/* Style the hr tag */
+hr {
+  border: 1px solid #ddd;
+}
+
+/* Style the list-group class */
+.list-group {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style the form elements */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the columns */
+.col {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
